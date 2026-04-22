@@ -1,0 +1,61 @@
+message_id,message_text,ground_truth_label
+1,My dad was admitted to the ICU last night and we do not know what to do next. Can someone call me today?,urgent
+2,Our caregiver canceled for tomorrow morning and I have surgery at 7 AM. We need backup care immediately.,urgent
+3,My mother wandered out of the house this afternoon and the police were called. We need help urgently.,urgent
+4,I was just told my son cannot return to daycare tomorrow unless I submit medical forms by end of day.,urgent
+5,The nursing facility is discharging my husband tomorrow and we have no care arranged at home.,urgent
+6,Please call me as soon as possible. My sister fell and is alone at home.,urgent
+7,Hospice says we need to decide on services today and I am overwhelmed.,urgent
+8,My regular aide did not show up and I have to leave for work in an hour.,urgent
+9,My child was suspended from school starting tomorrow and I need emergency care coverage.,urgent
+10,Adult Protective Services contacted us and said action is needed right away.,urgent
+11,I need someone to help me today. My husband has dementia and became aggressive this morning.,urgent
+12,The hospital is asking where my mother will go after discharge this evening.,urgent
+13,My father’s oxygen equipment is not working and I do not know who to call.,urgent
+14,We just lost our childcare for tonight and both parents are scheduled to work.,urgent
+15,Can anyone respond ASAP? My aunt has not eaten in two days and is refusing help.,urgent
+16,Just checking in on the referral list you sent last week. Thank you.,not_urgent
+17,I would like help exploring daycare options in my area for this fall.,not_urgent
+18,Can you send me a new copy of the provider spreadsheet when you have a chance?,not_urgent
+19,"Thanks, we found a solution and no longer need support.",not_urgent
+20,I am starting to research assisted living for my mom for next year.,not_urgent
+21,Can you explain what services are covered under my plan?,not_urgent
+22,"I am overwhelmed by all of this, but nothing needs to happen today.",not_urgent
+23,Please update my phone number on file.,not_urgent
+24,"My daughter has the flu, so I may need help later this week if she cannot return to school.",not_urgent
+25,I wanted to follow up on my previous message whenever someone has time.,not_urgent
+26,"Never mind, my brother agreed to help so we are all set.",not_urgent
+27,I am frustrated that this process is taking so long.,not_urgent
+28,Can you point me to resources for evaluating memory care facilities?,not_urgent
+29,"Not urgent, but I would appreciate a reply before next week if possible.",not_urgent
+30,"My mother’s appointment was moved to next month, so we have more time.",not_urgent
+31,My dad is being discharged soon and I am trying to understand our options.,urgent
+32,This is really bad. I do not know how much longer we can manage.,urgent
+33,I need help fast with my mom’s situation.,urgent
+34,Our caregiver situation is becoming impossible.,urgent
+35,Can someone please call me today about my father?,urgent
+36,The school just informed me of a schedule change and I need help figuring out coverage.,urgent
+37,I am at the ER with my son and trying to understand what help may be available after this.,urgent
+38,We do not have anyone to stay with my mom tonight.,urgent
+39,I cannot leave my father alone and my shift starts in 30 minutes.,urgent
+40,"My husband is safe now, but last night was scary and I need a plan today.",urgent
+41,I am panicking and feel like everything is falling apart.,not_urgent
+42,"This has been a nightmare, but I can wait until tomorrow for a response.",not_urgent
+43,"ASAP, can you resend the brochure? I cannot find it.",not_urgent
+44,"My father is fine now, but last week was terrible.",not_urgent
+45,I need help immediately understanding my invoice.,not_urgent
+46,"This is urgent to me because I am very stressed, but no action is needed today.",not_urgent
+47,Please do not rush on this; I just wanted to get it on your radar.,not_urgent
+48,Can we set up time next week to discuss elder care options?,not_urgent
+49,The issue resolved itself this morning.,not_urgent
+50,I may need backup care at some point if my mom’s condition worsens.,not_urgent
+51,My child has a fever and cannot go to daycare today; I need care coverage for work.,urgent
+52,"I am trying not to overreact, but I think we need help today.",urgent
+53,"My dad is okay at the moment, but the rehab center says discharge is tomorrow morning.",urgent
+54,"No rush, but my caregiver quit effective immediately and I will need options.",not_urgent
+55,"I left you a voicemail because my mom fell, but she is stable and with family now.",urgent
+56,Can someone help me understand whether memory care is the right next step? Nothing has happened yet.,not_urgent
+57,I need to submit FMLA paperwork by 5 PM today or I may lose leave protection.,urgent
+58,"My provider canceled, but I found a neighbor to cover today.",not_urgent
+59,We are unsafe leaving my mother alone this evening.,urgent
+60,I would love advice on planning ahead in case my husband’s condition declines.,not_urgent
