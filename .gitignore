@@ -1,2 +1,5 @@
 .DS_Store
 CLAUDE.md
+.venv/
+__pycache__/
+frontend/node_modules/

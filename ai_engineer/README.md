@@ -35,8 +35,23 @@ In the live interview, we will ask you questions and your thoughts about evaluat
    
    Note: On first run, the Hugging Face model (~1.6GB) will download automatically.
 
-3. **Open the Frontend**
-   Open `frontend/index.html` in your web browser. The interface will connect to the backend API.
+3. **Run the Frontend**
+   The frontend is a Vite + React + TypeScript app (styled with Tailwind CSS) located in `frontend/`.
+
+   Requirements: Node.js 20.19+ or 22.12+ (a `.nvmrc` pins `22.17.1` — run `nvm use` from the `frontend/` directory if you use nvm).
+
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
+   The dev server starts on http://localhost:5173 and connects to the backend at `http://localhost:8000`. To point at a different backend, set `VITE_API_URL` (e.g. `VITE_API_URL=http://localhost:9000 npm run dev`).
+
+   To produce a production build:
+   ```bash
+   npm run build
+   npm run preview
+   ```
 
 4. **Run Evaluation (Optional)**
    ```bash
@@ -61,7 +76,17 @@ ai_engineer/
 │   ├── __init__.py
 │   └── eval.py
 ├── frontend/
-│   └── index.html
+│   ├── index.html
+│   ├── package.json
+│   ├── tailwind.config.js
+│   ├── vite.config.ts
+│   └── src/
+│       ├── main.tsx
+│       ├── App.tsx
+│       ├── api/classify.ts
+│       └── components/
+│           ├── MessageClassifier.tsx
+│           └── ClassificationResult.tsx
 └── requirements.txt
 ```
 
